@@ -1,13 +1,72 @@
+body {
+    background: rgb(160,82,45);
+    background: radial-gradient(circle, rgba(160,82,45,1) 0%, rgba(51,51,51,1) 100%);    
+}
+
+.logo {
+    float: left;
+    display: block;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background: rgb(160,82,45);
+    background: radial-gradient(circle, rgba(160,82,45,1) 0%, rgba(51,51,51,1) 100%);    
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 60px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: transparent;
+    color: white;
+  }
+
+  .topnav a.active:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
 .parallax {
     /* The image used */
-    background-image: url("img_parallax.jpg");
+    background: url("");
   
     /* Set a specific height */
     min-height: 500px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .p1 {
+    float: right;
   }
