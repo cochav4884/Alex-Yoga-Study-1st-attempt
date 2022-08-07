@@ -114,7 +114,6 @@ h3 {
 }
 
 /* ABOUT PAGE*/
-/* Yoga Styles We Offer */
 ul {
     list-style-type: none;
 }
@@ -196,6 +195,15 @@ ul li a:hover {
     background-color: #333;
     color: white;
     transform: rotateY(180deg);
+}
+
+/* CLASSES WE OFFER - CARDS */
+.container-fluid {
+    display: inline-flex;
+}
+
+.card {
+    margin-left: 55px;
 }
 
 /* FOOTER */
