@@ -1,8 +1,10 @@
+/* BODY */
 body {
     background: rgb(160, 82, 45);
     background: radial-gradient(circle, rgba(160, 82, 45, 1) 0%, rgba(51, 51, 51, 1) 100%);
 }
 
+/* LOGO */
 .logo {
     box-shadow: 2px 4px 8px #333;
 }
@@ -11,6 +13,7 @@ body {
     box-shadow: 2px 4px 8px #ddd;
 }
 
+/* NABVBAR */
 /* Create a right-aligned (split) link inside the navigation bar */
 .topnav a.split {
     float: left;
@@ -62,12 +65,13 @@ body {
     display: none;
 }
 
-/* Header */
+/* HEADER */
 header {
     background: rgb(160, 82, 45);
     background: radial-gradient(circle, rgba(160, 82, 45, 1) 0%, rgba(51, 51, 51, 1) 100%);
     text-align: center;
     padding: 15px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -76,15 +80,18 @@ h1 {
 }
 
 h2 {
-    margin-top: 50px;
+    margin: 20px;
+    font-size: 36px;
     color: white;
+
 }
 
 h3 {
     color: white;
+    margin: 20px;
 }
 
-/* Parallax */
+/* PARALLAX */
 .parallax {
     /* The image used */
     background: url("../img/yogab&w1.avif");
@@ -103,8 +110,10 @@ h3 {
     font-size: 24px;
     color: white;
     text-shadow: 2px 2px black;
+    margin: 60px;
 }
-/* About Page */
+
+/* ABOUT PAGE*/
 /* Yoga Styles We Offer */
 ul {
     list-style-type: none;
@@ -112,11 +121,14 @@ ul {
 
 ul li {
     background-color: rgb(160, 82, 45, 0.725);
+    height: auto;
+    width: 100px;
     margin: 10px;
     padding: 5px;
     display: inline-block;
     box-shadow: 2px 4px 8px black;
-    border-radius: 15px;
+    border-radius: 15px; 
+    text-align: center;
 }
 
 ul li a {
@@ -132,8 +144,9 @@ ul li a:hover {
     color: #333;
 }
 
-/* Back to Top */
+/* BACK TO TOP */
 .backtotop {
+    margin-left: 20px;
     text-decoration: none;
     color: black;
 }
@@ -142,12 +155,13 @@ ul li a:hover {
     color: white;
 }
 
-/* Flip Cards */
+/* FLIP CARDS */
 .flip-card {
     background-color: transparent;
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    margin-left: 20px;
 }
 
 .flip-card-inner {
@@ -184,15 +198,10 @@ ul li a:hover {
     transform: rotateY(180deg);
 }
 
-/* Aside */
-.text-back {
-    float: right;
-}
-
-/* footer */
+/* FOOTER */
 footer {
-    padding: 15px;
-    margin-top: 50px;
+    padding: 60px;
+    margin-top: 100px;
 }
 
 /* logo */
