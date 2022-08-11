@@ -14,14 +14,95 @@ body {
 }
 
 /* NABVBAR */
+/* Add a black background color to the top navigation */
 .navbar {
     background: rgb(160, 82, 45, 0.5);
-    background: radial-gradient(circle, rgba(160, 82, 45, 1) 0%, rgba(51, 51, 51, 1) 100%);
+    background: radial-gradient(circle, rgba(160, 82, 45, 0.5) 0%, rgba(51, 51, 51, 0.5) 100%);
     overflow: hidden;
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 10000;
+    padding-bottom: 30px;
+}
+
+.nav-link {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 60px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar a.active {
+    background-color: transparent;
+    color: white;
+}
+
+.navbar a.active:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.dropdown-menu .dropdown-item {
+    background-color: transparent;
+    color: black;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/* Style the links inside the navigation bar */
+/* .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 60px;
+} */
+
+/* Change the color of links on hover */
+/* .navbar a:hover {
+    color: black;
+} */
+
+/* Add an active class to highlight the current page */
+/* .navbar a.active {
+    background-color: transparent;
+    color: white;
+} */
+
+/* .navbar a.active:hover {
+    background-color: #ddd;
+    color: black;
+} */
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+    display: none;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.navbar-collapse {
+    overflow: hidden;
 }
 
 /* HEADER */
