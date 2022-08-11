@@ -62,11 +62,6 @@ body {
     color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
-.navbar .icon {
-    display: none;
-}
-
 .navbar-toggler {
     color: white;
 }
@@ -171,6 +166,6 @@ footer {
 }
 
 /* logo */
-.split2 {
+.ftrlogo {
     float: right;
 }
