@@ -126,7 +126,7 @@ ul {
 ul li {
     background-color: rgb(160, 82, 45, 0.725);
     height: auto;
-    width: 150px;
+    width: auto;
     margin: 10px;
     padding: 5px;
     display: inline-block;
